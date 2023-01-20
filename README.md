@@ -60,7 +60,8 @@ This would generally mean certain GTX 1050 cards, Quadro T1000 or later.
 **2022.9.26 New release v1.7**  
 [+]Added 3 extra command line arguments.  
 Example usage of all available parameters:  
-```ConvertToHEVC++.exe "C:\path\to\video.mp4" EXITWHENDONE quality=slow scaling=AUTOx1080 autostart```      
+```ConvertToHEVC++.exe "C:\path\to\video.mp4" EXITWHENDONE quality=slow scaling=AUTOx1080 autostart```  
+    
 » The scaling and quality arguments MUST match an in-program option, and they are case-sensitive.  
 » These 2 arguments will be saved as new defaults; since they are a part of the statistical save routine.  
 » EXITWHENDONE will exit the program automatically after completion.  
